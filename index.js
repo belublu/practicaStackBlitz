@@ -5,6 +5,8 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
+//VARIABLES
+
 /* var binario = "0111111"
 var octal = "007"
 var hexa = "3F"
@@ -47,7 +49,42 @@ let ivaTotal = (precio * iva) / 100
 let compra = precio + ivaTotal
 console.log ("El total de su compra es $" + compra) */
 
-let lado = 40
+/* let lado = 40
 let area = lado * lado
 let perimetro = lado * 4
-console.log("El area del cuadrado es: " + area + " y su perímetro es:" + perimetro)
+console.log("El area del cuadrado es: " + area + " y su perímetro es:" + perimetro) */
+
+/* let nombre = prompt("Escribe tu nombre")
+let hola = alert("Hola " + nombre) */
+
+/* let numero1 = parseInt(prompt("Ingrese un numero"))
+let numero2 = parseInt(prompt("Ingrese un numero"))
+let numero3 = parseInt(prompt("Ingrese un numero"))
+let media = (numero1 + numero2 + numero3) / 3
+console.log("La media de los número es " + media) */
+
+
+/* let combustible = parseFloat(prompt("Ingrese el combustible utilizado"))
+let kilometros = parseFloat(prompt("Ingrese los kilómetros recorridos"))
+let consumoPorKilometro = combustible / kilometros
+alert("El consumo por kilómetro fue de " + consumoPorKilometro ) */
+
+/* let segundosMinutos = 60
+let minutos = 30
+let horas = 2
+let minutosASegundos = minutos * segundosMinutos
+let horasASegundos = horas * segundosMinutos * segundosMinutos
+let segundosTotales = minutosASegundos + horasASegundos
+console.log (segundosTotales) */
+
+/* var comensales, papas, huevos, cebollas;
+comensales = parseInt(prompt("Comensales"));
+papas = comensales*200;
+papas = papas/1000;    //en kilos
+huevos = papas*5;
+cebolla = papas*300;
+console.log("Patatas " + papas+" kilos");
+console.log("Huevos " + huevos);
+console.log("Cebolla "+cebolla +" gramos"); */
+
+
